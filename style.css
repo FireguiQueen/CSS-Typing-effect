@@ -1,47 +1,22 @@
 *{
-    font-family: 'Press Start 2P', cursive;
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 body{
-    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
     height: 100vh;
     background: linear-gradient(45deg, #6fb2c9, #051c67);
-}
-
-
-#home{
-    margin-right: 50px
-}
-span{
-    position: fixed;
-    top: 65px;
-    left: 40px;
-}
-input{
-    border-radius: 2;
-    text-align: center;
-    box-sizing: border-box;
-    height: 50px;
-    width: 120px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-
-}
-
-
-#corpo{
     display: flex;
     align-items: center;
     justify-content: center;
-}
- 
 
+}
 
 #sobremim{
+    box-shadow: 5px 8.8px 11px -11px rgba(127, 145, 148, 0.75);
     font-family: 'Inconsolata', monospace;   
     text-align: center;
-    margin: 0 auto;
     font-size: 3em;
     border-right: 2px solid rgba(233, 233, 233, 0.738);
     white-space: nowrap;
@@ -50,20 +25,12 @@ input{
 }
 
 
-.typing{
-    animation: cursor 500ms infinite normal, aparecendo 4s steps(60) 1s normal both;
+p.typing{
+    animation: cursor 500ms infinite normal, digitando 5s ease-out alternate infinite;
 }
 
 
-/* LETRAS APARECENDO - EFEITO FINAL */ 
-@keyframes aparecendo {
-    from{
-        width: 0;
-    } to {
-        width: 27.7em;
-    }
-}
-
+                /* ANIMAÇÃO */
 
 /* CURSOR PISCANDO */ 
 @keyframes cursor{
@@ -73,3 +40,15 @@ input{
         border-right-color: transparent;
     }
 }
+
+
+/* LETRAS APARECENDO */ 
+@keyframes digitando {
+    from{
+        width: 0;
+    } to {
+        width: 27.7em;
+    }
+}
+
+
