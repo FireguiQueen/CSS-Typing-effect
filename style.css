@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 body{
     font-family: 'Press Start 2P', cursive;
-    box-sizing: border-box;
     height: 100vh;
     background: linear-gradient(45deg, #6fb2c9, #051c67);
     display: flex;
@@ -12,7 +13,17 @@ body{
     justify-content: center;
 
 }
+#mygithub{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    transition: transform 50ms linear;
 
+}
+#mygithub:hover{
+    transform: translateY(-5px);
+    transition: transform 50ms linear;
+}
 #sobremim{
     box-shadow: 5px 8.8px 11px -11px rgba(127, 145, 148, 0.75);
     font-family: 'Inconsolata', monospace;   
@@ -25,8 +36,9 @@ body{
 }
 
 
-p.typing{
-    animation: cursor 500ms infinite normal, digitando 5s ease-out alternate infinite;
+p#sobremim{
+    animation: cursor 500ms infinite normal, 
+    digitando 5s ease-out alternate infinite;
 }
 
 
