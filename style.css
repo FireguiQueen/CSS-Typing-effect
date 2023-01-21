@@ -26,14 +26,12 @@ body{
 }
 #sobremim{
     box-shadow: 5px 8.8px 11px -11px rgba(127, 145, 148, 0.75);
-    font-family: 'Inconsolata', monospace;   
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     border-right: 2px solid rgba(233, 233, 233, 0.738);
     white-space: nowrap;
     overflow: hidden;
-    filter: drop-shadow(3px 15px 1px rgba(0, 0, 0, 0.158));
-
+    filter: drop-shadow(3px 40px 1px rgba(0, 0, 0, 0.158));
 }
 
 
@@ -67,7 +65,7 @@ p#sobremim{
     from{
         width: 0;
     } to {
-        width: 27.7em;
+        width: 56.7em;
     }
 }
 
