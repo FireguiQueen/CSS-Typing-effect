@@ -31,9 +31,7 @@ body{
     font-size: 3em;
     border-right: 2px solid rgba(233, 233, 233, 0.738);
     white-space: nowrap;
-    overflow: hidden;
-    background-color: hsl(45, 3%, 100%)
-    
+    overflow: hidden;    
 }
 
 
